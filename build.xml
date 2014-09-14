@@ -5,6 +5,8 @@
          It contains the path to the SDK. It should *NOT* be checked into
          Version Control Systems. -->
     <property file="local.properties" />
+    <property name="ANDROID_SDK" 
+          location="/Users/macbookpro/Documents/HRG-PROJECT/Android/sdk" />
 
     <!-- The ant.properties file can be created by you. It is only edited by the
          'android' tool to add properties to it.
@@ -87,6 +89,6 @@
          in order to avoid having your file be overridden by tools such as "android update project"
     -->
     <!-- version-tag: 1 -->
-    <import file="${sdk.dir}/tools/ant/build.xml" />
+    <import file="${ANDROID_SDK}/tools/ant/build.xml" />
 
 </project>
