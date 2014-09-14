@@ -5,6 +5,9 @@
          It contains the path to the SDK. It should *NOT* be checked into
          Version Control Systems. -->
     <property file="local.properties" />
+    echo $ANDROID_HOME
+    export ANDROID_HOME=/Users/macbookpro/Documents/HRG-PROJECT/Android/sdk
+    echo $ANDROID_HOME
 
     <!-- The ant.properties file can be created by you. It is only edited by the
          'android' tool to add properties to it.
