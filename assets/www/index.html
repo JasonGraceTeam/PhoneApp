@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>POT-Jquery Mobile</title>
+    <!-- Jquery Mobile Stylesheet -->
+    <link type="text/css" href="css/JQM/jquery.mobile-1.4.2.css" rel="stylesheet"/>
+    <link type="text/css" href="css/JQM/jquery.mobile.icons-1.4.2.css" rel="stylesheet"/>
+    <link type="text/css" href="css/JQM/jquery.mobile.inline-png-1.4.2.css" rel="stylesheet"/>
+    <link type="text/css" href="css/JQM/jquery.mobile.inline-svg-1.4.2.css" rel="stylesheet"/>
+    <link type="text/css" href="css/JQM/jquery.mobile.structure-1.4.2.css" rel="stylesheet"/>
+    <link type="text/css" href="css/JQM/jquery.mobile.theme-1.4.2.css" rel="stylesheet"/>
+    <link type="text/css" href="css/JQM/jquery.mobile.external-png-1.4.2.css" rel="stylesheet"/>
+    <link type="text/css" href="css/JQM/jquery.mobile.external-png-1.4.2.css" rel="stylesheet"/>
+    <!-- OWL carousel -->
+    <link type="text/css" href="css/OWL/owl.carousel.css" rel="stylesheet"/>
+    <link type="text/css" href="css/OWL/owl.theme.css" rel="stylesheet"/>
+    <!-- custom style -->
+    <link type="text/css" media="screen and (min-width:600px)" rel="stylesheet" href="css/sample.css">
+    <link type="text/css" href="css/index.css" rel="stylesheet"/>
+    <!-- JQuery and JQuery Mobile script -->
+    <script src="JQM/jquery-2.1.1.js"></script>
+    <script src="JQM/jquery.xml2json.js"></script>
+    <script src="JQM/jquery.mobile-1.4.2.js"></script>
+    <!-- OWL carousel script -->
+    <script src="OWL/owl.carousel.js"></script>
+    <!-- Application script -->
+    <script src="js/template.js"></script>
+    <script src="js/Utility.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+<div data-role="page" id="indexPage">
+    <div data-role="header" id="mainHeader" class="customHeader">
+        Flipkart
+    </div>
+    <div data-role="content" id="mainContent" class="customContent">
+        <div id="dynamicCarousel"></div>
+        <div id="newsList">
+            <ul id="newsDiv" data-role="listview">
+            </ul>
+        </div>
+    </div>
+        <div data-role="navbar" data-grid="a" class="mainNavbar">
+            <ul>
+                <li><a href="#indexPage" class="ui-btn-active">Movie List</a></li>
+                <li><a href="#contactUsPage">Contact Us</a></li>
+            </ul>
+        </div>
+</div>
+<!--  ************************************* Contact US ********************************************** -->
+<div data-role="page" id="contactUsPage">
+    <div data-role="header" id="mainHeader" class="customHeader">
+        Contact Us
+    </div>
+    <div data-role="content" id="mainContent" class="customContent">
+
+    </div>
+    <div data-role="navbar" data-grid="a" class="mainNavbar">
+        <ul>
+            <li><a href="#indexPage" >Movie List</a></li>
+            <li><a href="#contactUsPage" class="ui-btn-active">Contact Us</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
